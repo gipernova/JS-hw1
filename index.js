@@ -79,7 +79,7 @@ const students = [
 - Из массива чисел от 1 до 10 вывести первый и последний элемент*/
 const newArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 console.log(newArr[0])
-console.log(newArr.length)
+console.log(newArr[newArr.length - 1])
 
 /* - Используя объекта student (пункт 5) вывести сообщение
  `студент: {имя} {фамилия}, сейчас активен: {isActive}`*/
